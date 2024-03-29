@@ -27,7 +27,8 @@ terraform.tfstate file is used to tracking the infrastructure. You can not store
 ```
 Develop a script on Linux or VS Code.
 Put Terraform configure in Git hub (Version Control).
-Terraform state file should goes into remote backend. Remote backend means remote storage service. Ex:- Amazon S3 bucket, Azure storage.
+Terraform state file should goes into remote backend. Remote backend means remote storage service.
+Ex:- Amazon S3 bucket, Azure storage.
 Integrated them with proper locking solutions. Ex:- Dynamo DB.
 ```
 ```
