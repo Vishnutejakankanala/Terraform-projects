@@ -252,3 +252,17 @@ resource "aws_instance" "Application" {
   }
 }
 
+
+
+
+# Give a terraform required provider, set the region and profile.
+# create vpc
+# create two public subnets and 2 private subnets.
+# create internet gateway with given vpc
+# Create rout tables attach to internet gateway and vpc 
+# Both subnets accociated with rout table
+# Create elastic ip's to private subnets 1&2
+# create two Nat gateways with rout tables
+# Associate private subnet to nat gateway
+# Create security groups and attach ports 22-ssh, 80-HTTP & 300-TCP 
+
