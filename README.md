@@ -13,7 +13,7 @@ Terraform convert the script to any service. So, we don’t need to learn so man
 
 Using API(Application Programming Interface) you can programmically access to any application. Google, Git hub, Azure etc
 
-# Basic Commands in Terraform:-
+# Basic Commands Used in Terraform:-
 ```
 terraform init - It initialize a working directory. First command to run after writing a code.
 terraform plan - Create an execution plan, to check terraform state is upto date.
